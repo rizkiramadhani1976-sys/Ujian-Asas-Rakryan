@@ -1,0 +1,490 @@
+@font-face {
+  font-family: "BeachResort";
+  src: url("font/BeachResort-yqM2.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+.body {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  background: linear-gradient(135deg, #6f8d7b 0%, #64a1b8 100%);
+}
+
+nav {
+  position: fixed;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 13px 0;
+  background: rgba(255, 255, 255, 0.15);
+  backdrop-filter: blur(10px);
+}
+
+#nav-div1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+#nav-div1 img {
+  width: 130px;
+  height: auto;
+}
+
+#nav-div2 {
+  display: flex;
+  flex-direction: row;
+  gap: 50px;
+}
+
+#nav-div2 a {
+  font-family: BeachResort;
+  text-decoration: none;
+  font-size: 30px;
+  color: darkgreen;
+}
+
+#nav-div2 a:hover {
+  color: green;
+}
+
+#nav-div3 {
+  display: flex;
+  gap: 20px;
+}
+
+#nav-div3 a {
+  text-decoration: none;
+}
+
+#signIn {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  background-color: black;
+  font-weight: 500;
+  font-size: larger;
+  height: 50px;
+  width: 100px;
+  border-radius: 50px;
+}
+
+#signIn:hover {
+  background-color: rgb(2, 48, 26);
+}
+
+#logIn {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  color: black;
+  background-color: white;
+  font-weight: 600;
+  width: 100px;
+  border-radius: 50px;
+  box-shadow: 0px 0px 5px gray;
+}
+
+#logIn:hover {
+  background-color: silver;
+}
+
+#utama {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#background-pemandangan {
+  background-image: url("gambar/download.jpeg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin-top: 150px;
+  margin-bottom: 50px;
+  width: 1350px;
+  height: 690px;
+  border-radius: 20px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#bg-blur {
+  background-color: rgba(0, 0, 0, 0.4);
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
+}
+
+#div-h1 {
+  text-align: center;
+  color: white;
+  padding: 10px;
+  border-radius: 5px;
+  font-family: BeachResort;
+  font-size: 100px;
+  margin: 0;
+}
+
+#div-p1 {
+  text-align: center;
+  color: white;
+  font-size: 30px;
+  margin-top: -20px;
+}
+
+/* tentang Malang */
+#abt-Malang {
+  width: 35cm;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 60px;
+}
+
+#abt-Malang h1 {
+  font-family: BeachResort;
+  font-size: 60px;
+  margin: 0;
+}
+
+#abt-Malang p {
+  font-size: larger;
+  font-family: "Inter", sans-serif;
+  line-height: 0.6cm;
+  width: 20cm;
+  line-break: 10px;
+  text-indent: 20px;
+  text-align: justify;
+}
+
+#abt-Malang div img {
+  width: 500px;
+  height: auto;
+  border-radius: 20px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+}
+/* tentang Malang end */
+
+/* kenapa harus ke malang */
+#why {
+  width: 35cm;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 25px;
+}
+
+#why div img {
+  width: 500px;
+  height: auto;
+  border-radius: 20px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+}
+
+#why div h1 {
+  font-family: BeachResort;
+  font-size: 60px;
+  margin: 0;
+}
+
+#why div p {
+  font-size: larger;
+  font-family: "Inter", sans-serif;
+  line-height: 0.6cm;
+  width: 20cm;
+  line-break: 10px;
+  text-indent: 20px;
+  text-align: justify;
+}
+
+/* video singkat pemandangan kota malang */
+
+#video-yt h1 {
+  font-family: BeachResort;
+  font-size: 70px;
+}
+
+#video-yt div {
+  width: 100%;
+  max-width: auto;
+  border-radius: 15px;
+  overflow: hidden;
+  margin-bottom: 50px;
+}
+
+#video-yt div iframe {
+  width: 100%;
+  height: 478px;
+  display: block;
+}
+/* video singkat pemandangan kota malang end */
+
+/* footer */
+footer {
+  text-align: center;
+  background-color: rgba(224, 224, 224, 0.096);
+  font-weight: 700;
+  font-size: larger;
+  color: darkgreen;
+  padding: 10px;
+  border-top: 2px solid rgba(255, 255, 255, 0.1);
+}
+/* footer end */
+
+/* page 2 */
+#page2-pembuka {
+  padding-top: 160px;
+}
+
+#page2-pembuka h1 {
+  text-align: center;
+  letter-spacing: 3px;
+  color: black;
+  padding: 10px;
+  border-radius: 5px;
+  font-family: BeachResort;
+  font-size: 50px;
+  margin: 0;
+}
+
+#page2-pembuka p {
+  font-size: larger;
+  color: black;
+  font-family: "Inter", sans-serif;
+  line-height: 0.6cm;
+  line-break: 10px;
+  text-indent: 20px;
+  text-align: center;
+}
+
+/* isi konten */
+#konten {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 40px;
+  gap: 40px;
+}
+
+.isiKonten {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: rgba(111, 131, 120, 0.536);
+  width: 33cm;
+  height: auto;
+  padding: 12px;
+  border: 2px solid;
+  border-color: silver;
+  border-radius: 10px;
+}
+
+.kontenKiri {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(194, 194, 194, 0.245);
+  border: 2px solid;
+  border-radius: 10px;
+  border-color: silver;
+  padding: 12px;
+}
+
+.kontenKiri p {
+  font-family: BeachResort;
+  font-size: 30px;
+  margin: 0;
+  padding-bottom: 10px;
+}
+.kontenKanan {
+  background-color: rgba(177, 177, 177, 0.408);
+  border: 2px solid;
+  border-radius: 10px;
+  border-color: silver;
+  padding: 12px;
+  width: 800px;
+  height: auto;
+}
+
+.kontenJudul {
+  font-weight: 700;
+  font-size: 22px;
+  margin: 0;
+}
+
+.kontenDeskripsi {
+  font-size: 18px;
+  font-family: "Inter", sans-serif;
+  line-height: 0.55cm;
+  width: 20cm;
+  line-break: 10px;
+  text-indent: 10px;
+  text-align: justify;
+}
+
+.kontenRating {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  font-size: larger;
+}
+
+.kontenRating span {
+  font-weight: 700;
+}
+
+.kontenUlasan {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  font-size: larger;
+}
+
+.kontenUlasan span {
+  font-weight: 700;
+}
+
+.kontenLokasi {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  font-size: larger;
+}
+
+.kontenLokasi span {
+  font-weight: 700;
+}
+
+.parentLink {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.link {
+  text-decoration: none;
+  color: rgb(1, 117, 1);
+  font-size: 20px;
+  font-weight: 750;
+  padding: 8px 25px;
+  border: 2px solid;
+  border-radius: 10px;
+}
+
+.link:hover {
+  background-color: rgb(38, 117, 38);
+  color: #6f8d7b;
+  transition: 0.5s;
+}
+/* isi konten end*/
+
+/* bagian gambar gambar */
+#gambar1 {
+  width: 360px;
+  border-radius: 10px;
+}
+/* bagian gambar gambar */
+
+/* page 2 end */
+
+/* page 3 */
+#parentlogo {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 100px;
+  height: 880px;
+  gap: 40px;
+}
+
+.parentl {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  background-color: rgba(255, 255, 255, 0.542);
+  padding: 60px;
+  border: 1px solid black;
+  border-radius: 20px;
+}
+
+#logoAtas {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(255, 255, 255, 0.77);
+  border: 1px solid black;
+  padding: 20px 50px;
+  border-radius: 20px;
+}
+
+#parentlogo div img {
+  height: 90px;
+}
+
+#logoBawah {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+#tombol1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  color: black;
+  font-size: larger;
+  background-color: #25d366;
+  padding: 15px 100px;
+  border: 1px solid black;
+  border-radius: 40px;
+}
+
+#tombol1:hover {
+  background-color: black;
+  color: white;
+  transition: ease-in-out, 0.2s;
+}
+
+#tombol2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  color: black;
+  font-size: larger;
+  background-color:white;
+  padding: 15px 60px;
+  border: 1px solid black;
+  border-radius: 40px;
+}
+
+#tombol2:hover {
+  background-color: black;
+  color: white;
+  transition: ease-in-out, 0.2s;
+}
+
+/* page 3 end */

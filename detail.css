@@ -1,0 +1,254 @@
+@font-face {
+  font-family: "BeachResort";
+  src: url("font/BeachResort-yqM2.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+.body {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  background: linear-gradient(135deg, #6f8d7b 0%, #64a1b8 100%);
+}
+
+nav {
+  position: fixed;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 13px 0;
+  background: rgba(255, 255, 255, 0.15);
+  backdrop-filter: blur(10px);
+}
+
+#nav-div1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+#nav-div1 img {
+  width: 130px;
+  height: auto;
+}
+
+#nav-div2 {
+  display: flex;
+  flex-direction: row;
+  gap: 50px;
+}
+
+#nav-div2 a {
+  font-family: BeachResort;
+  text-decoration: none;
+  font-size: 30px;
+  color: darkgreen;
+}
+
+#nav-div2 a:hover {
+  color: green;
+}
+
+#nav-div3 {
+  display: flex;
+  gap: 20px;
+}
+
+#nav-div3 a {
+  text-decoration: none;
+}
+
+#signIn {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  background-color: black;
+  font-weight: 500;
+  font-size: larger;
+  height: 50px;
+  width: 100px;
+  border-radius: 50px;
+}
+
+#signIn:hover {
+  background-color: rgb(2, 48, 26);
+}
+
+#logIn {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  color: black;
+  background-color: white;
+  font-weight: 600;
+  width: 100px;
+  border-radius: 50px;
+  box-shadow: 0px 0px 5px gray;
+}
+
+#logIn:hover {
+  background-color: silver;
+}
+
+/* footer */
+footer {
+  width: 98.8%;
+  text-align: center;
+  background-color: rgba(224, 224, 224, 0.096);
+  font-weight: 700;
+  font-size: larger;
+  color: darkgreen;
+  padding: 10px;
+  border-top: 2px solid rgba(255, 255, 255, 0.1);
+}
+/* footer end */
+
+/* content utama pariwisata  */
+#kontenUtama {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#isiKonten {
+  width: 75%;
+  border-radius: 12px;
+  margin-top: 150px;
+  margin-bottom: 80px;
+}
+
+#kontenAtas {
+  display: flex;
+  flex-direction: column;
+}
+
+#judulAtas {
+  display: flex;
+  flex-direction: column;
+}
+
+#judulAtas p {
+  font-family: BeachResort;
+  font-size: 65px;
+  margin: 0;
+}
+
+#gambarAtas {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  border-radius: 20px;
+  width: 1424.5px;
+  height: 520px;
+  gap: 5px;
+}
+
+#gambar1 {
+  width: 970px;
+  height: 551px;
+  border-bottom-left-radius: 20px;
+  border-top-left-radius: 20px;
+}
+
+#gambar2 {
+  width: 456px;
+  height: auto;
+  border-top-right-radius: 20px;
+}
+
+#gambar3 {
+  width: 456px;
+  height: auto;
+  border-bottom-right-radius: 20px;
+}
+
+#gambar3-modif-kurang {
+  width: 456px;
+  height: 290px;
+}
+
+.penjelasan {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  background-color: #9eb49570;
+  padding: 10px 20px;
+  padding-bottom: 30px;
+  border-radius: 20px;
+  margin-top: 20px;
+}
+
+.penjelasan h1 {
+  font-family: BeachResort;
+  font-size: 60px;
+  margin: 0;
+}
+
+.isiPenjelasan {
+  display: flex;
+  flex-direction: column;
+  background-color: #c0e3b376;
+  padding: 30px;
+  border-radius: 20px;
+}
+
+.p-judul {
+  font-weight: 600;
+  font-size: 20px;
+  margin-top: 0;
+}
+
+.p-penjelasan {
+  margin-bottom: 0;
+  font-size: larger;
+  font-family: "Inter", sans-serif;
+  line-height: 0.6cm;
+  text-indent: 20px;
+  text-align: justify;
+}
+
+ol {
+  margin: 0px;
+  font-size: larger;
+}
+
+li {
+  margin: 8px 0px;
+  font-family: "Inter", sans-serif;
+  line-height: 0.6cm;
+  text-indent: 20px;
+  text-align: justify;
+}
+
+.parentLink {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 100%;
+  margin-bottom: 70px;
+}
+
+.link {
+  text-decoration: none;
+  color: rgb(1, 117, 1);
+  font-size: 20px;
+  font-weight: 750;
+  padding: 8px 25px;
+  border: 2px solid;
+  border-radius: 10px;
+}
+
+.link:hover {
+  background-color: rgb(38, 117, 38);
+  color: #6f8d7b;
+  transition: 0.5s;
+}
+
+/* content utama pariwisata end */
